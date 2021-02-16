@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NServiceBusExploration.ClientUI", "NServiceBusExploration.ClientUI\NServiceBusExploration.ClientUI.csproj", "{3817F09D-EE41-4624-A0F5-E329B5355312}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3817F09D-EE41-4624-A0F5-E329B5355312}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3817F09D-EE41-4624-A0F5-E329B5355312}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3817F09D-EE41-4624-A0F5-E329B5355312}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3817F09D-EE41-4624-A0F5-E329B5355312}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D6A5D35A-5664-4B03-B69D-50A34BCD9C51}
+	EndGlobalSection
+EndGlobal
