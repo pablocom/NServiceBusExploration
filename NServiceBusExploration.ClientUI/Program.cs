@@ -16,6 +16,8 @@ namespace NServiceBusExploration.ClientUI
 
             var endpointConfiguration = new EndpointConfiguration("ClientUI");
             var transport = endpointConfiguration.UseTransport<LearningTransport>();
+            var routing = transport.Routing();
+            routing.RouteToEndpoint(typeof(PlaceOrder), "Sales");
 
             var endpointInstance = await Endpoint.Start(endpointConfiguration)
                 .ConfigureAwait(false);
@@ -38,16 +40,14 @@ namespace NServiceBusExploration.ClientUI
                 switch (key.Key)
                 {
                     case ConsoleKey.P:
-                        // Instantiate the command
+                        
                         var command = new PlaceOrder()
                         {
                             OrderId = Guid.NewGuid().ToString()
                         };
 
-                        // Send the command to the local endpoint
                         Log.Info($"Sending PlaceOrder command, OrderId = {command.OrderId}");
-                        await endpointInstance.SendLocal(command)
-                            .ConfigureAwait(false);
+                        await endpointInstance.Send(command).ConfigureAwait(false);
 
                         break;
 
