@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NServiceBusExploration.Clie
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NServiceBusExploration.Messages", "NServiceBusExploration\NServiceBusExploration.Messages.csproj", "{080996C9-9B61-4043-94FF-B8DE73498A00}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NServiceBusExploration.Sales", "NServiceBusExploration.Sales\NServiceBusExploration.Sales.csproj", "{575617BD-A2DF-4053-B4BB-121CC1098CE1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{080996C9-9B61-4043-94FF-B8DE73498A00}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{080996C9-9B61-4043-94FF-B8DE73498A00}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{080996C9-9B61-4043-94FF-B8DE73498A00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{575617BD-A2DF-4053-B4BB-121CC1098CE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{575617BD-A2DF-4053-B4BB-121CC1098CE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{575617BD-A2DF-4053-B4BB-121CC1098CE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{575617BD-A2DF-4053-B4BB-121CC1098CE1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
