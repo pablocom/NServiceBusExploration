@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NServiceBusExploration.Mess
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NServiceBusExploration.Sales", "NServiceBusExploration.Sales\NServiceBusExploration.Sales.csproj", "{575617BD-A2DF-4053-B4BB-121CC1098CE1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NServiceBusExploration.Shipping", "NServiceBusExploration.Shipping\NServiceBusExploration.Shipping.csproj", "{B622DFE8-AFAE-4D54-88E4-8E5C552D13FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NServiceBusExploration.Billing", "NServiceBusExploration.Billing\NServiceBusExploration.Billing.csproj", "{3FD40BF9-1394-48BA-98AC-DECC83BAEFCB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{575617BD-A2DF-4053-B4BB-121CC1098CE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{575617BD-A2DF-4053-B4BB-121CC1098CE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{575617BD-A2DF-4053-B4BB-121CC1098CE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B622DFE8-AFAE-4D54-88E4-8E5C552D13FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B622DFE8-AFAE-4D54-88E4-8E5C552D13FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B622DFE8-AFAE-4D54-88E4-8E5C552D13FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B622DFE8-AFAE-4D54-88E4-8E5C552D13FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FD40BF9-1394-48BA-98AC-DECC83BAEFCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FD40BF9-1394-48BA-98AC-DECC83BAEFCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FD40BF9-1394-48BA-98AC-DECC83BAEFCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FD40BF9-1394-48BA-98AC-DECC83BAEFCB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
