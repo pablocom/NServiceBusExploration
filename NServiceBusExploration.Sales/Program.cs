@@ -11,6 +11,9 @@ namespace NServiceBusExploration.Sales
             Console.Title = "Sales";
 
             var endpointConfiguration = new EndpointConfiguration("Sales");
+            endpointConfiguration.Recoverability()
+                .Immediate(
+                    immediate => { immediate.NumberOfRetries(5); });
 
             var transport = endpointConfiguration.UseTransport<LearningTransport>();
 
